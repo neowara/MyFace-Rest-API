@@ -60,9 +60,14 @@ $(document).ready(function() {
                 } else {
                     alert("Please fill the required fields");
                 }
+                 $('#postText, #postTitle').val("");
             }
         })
     });
+    
+
 
 });
 
+
+    

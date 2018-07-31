@@ -7,17 +7,26 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="./Javascript/script.js"></script>
         <link rel="stylesheet" type="text/css" href="./CSS/style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
         <title>MyFace</title>
     </head>
     <body>
-        <h1>MyFace</h1>
+        <div id="maincontainer">
+        
+        <div id="header">
+        <h1 class="mainheader">MyFace</h1>
+        <div><img  src="images/myface.png"></a></div>
+        </div>
         
         <div id="blogposts"></div>
 
         <div id="mypost">
-            <input type="text" id="postTitle">
-            <input type="text" id="postText">
+            <input placeholder="Write a title here"  type="text" id="postTitle">
+            <textarea placeholder="Write your main content here" id="postText" rows="5"></textarea>
             <button id="savePost">Save Post</button>
+            <button id="emptySession"><a href="API/logout.php" id="emptySessionLink" >Empty Session</a></button>
         </div>
-      
+
+    
+    </div>
     </body>

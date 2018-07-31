@@ -1,0 +1,90 @@
+body {
+    background-color: #f8f8f8;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#maincontainer {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.mainheader {
+    text-align: center;
+    margin-top: 8px;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 60px;
+    margin-left: 5px;
+}
+
+#mypost {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+
+}
+
+input[type="text"] {
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+
+#savePost, #emptySession, #logoutButton  {
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Exo 2', sans-serif;
+    background-color: #767676;
+    border: 0;
+    color: white;
+    padding: 10px;
+    letter-spacing: 1px;
+    
+    
+}
+
+#emptySessionLink, #logoutLink {
+    text-decoration: none;
+    color: white;
+}
+
+#postText{
+    padding: 10px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#postTitle {
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+.post {
+    text-align: left;
+    border-bottom: 1px solid #767676;
+    margin-bottom: 50px;
+    
+}
+
+.post:last-child {
+    margin-bottom: 100px;
+}
+
+#logoutPage {
+    font-family: 'Exo 2', sans-serif;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
