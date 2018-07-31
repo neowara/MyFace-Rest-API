@@ -38,7 +38,6 @@ function retrievePosts() {
 }
 
 
-
 $(document).ready(function() {
 
 

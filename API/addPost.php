@@ -6,7 +6,7 @@
         if(!empty($_SESSION["posts"])){
             $posts = $_SESSION["posts"];
         } else {
-            $post = array();
+            $posts = array();
         };
 
         $id = count($posts) + 1;
