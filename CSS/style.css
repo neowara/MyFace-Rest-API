@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #f8f8f8;
     font-family: 'Exo 2', sans-serif;
@@ -27,7 +31,7 @@ img {
 #mypost {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 80%;
     margin: auto;
 
 }
@@ -60,6 +64,7 @@ input[type="text"] {
 #postText{
     padding: 10px;
     font-family: 'Exo 2', sans-serif;
+
 }
 
 #postTitle {
@@ -71,6 +76,9 @@ input[type="text"] {
     text-align: left;
     border-bottom: 1px solid #767676;
     margin-bottom: 50px;
+    word-break: keep-all;
+    
+
     
 }
 
@@ -85,6 +93,23 @@ input[type="text"] {
     text-align: center;
     margin-top: 50px;
 }
+
+@media all and (max-width: 600px) {
+    #maincontainer, #mypost {
+        width: 90%;
+    }
+
+    #mypost {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+
+
+}
+
+
+
 
 
 
